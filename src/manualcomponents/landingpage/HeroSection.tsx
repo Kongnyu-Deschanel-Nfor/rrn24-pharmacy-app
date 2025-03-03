@@ -145,7 +145,7 @@ const HeroSection = () => {
           </div>
 
           <div className="overflow-hidden">
-            <Button onClick={()=>navigate('login')} className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg rounded-lg transition-all duration-300 animate-fade-in hover:scale-105 shadow-xl">
+            <Button onClick={()=>navigate('account-type-select')} className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg rounded-lg transition-all duration-300 animate-fade-in hover:scale-105 shadow-xl">
               Get Started 
             </Button>
           </div>
